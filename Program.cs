@@ -39,7 +39,7 @@ System.Console.WriteLine("Toppings: "+numberOfToppings);
     Input tip
 */
 System.Console.WriteLine("Dollar amount of tip?");
-tip = int.Parse(Console.ReadLine());
+tip = double.Parse(Console.ReadLine());
 System.Console.WriteLine("Tip: $"+tip);
 /*
 totalSandwichCost = COST_OF_SANDWICH * numberOfSandwiches
